@@ -1,7 +1,9 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "mcp-optimizer-marketplace",
-  "description": "MCP optimization toolkit — diagnose, audit, optimize, and convert MCP servers to local skills",
+  "metadata": {
+    "description": "MCP optimization toolkit — diagnose, audit, optimize, and convert MCP servers to local skills",
+    "version": "1.0.0"
+  },
   "owner": {
     "name": "choam2426",
     "email": "choam2426@gmail.com"
@@ -18,7 +20,11 @@
       "source": ".",
       "category": "productivity",
       "homepage": "https://github.com/choam2426/mcp-optimizer",
-      "repository": "https://github.com/choam2426/mcp-optimizer"
+      "repository": "https://github.com/choam2426/mcp-optimizer",
+      "keywords": [
+        "mcp",
+        "token waste"
+      ]
     }
   ]
 }
