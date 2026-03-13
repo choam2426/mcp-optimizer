@@ -1,5 +1,5 @@
 {
-  "name": "mcp-optimizer-marketplace",
+  "name": "mcp-optimizer",
   "metadata": {
     "description": "MCP optimization toolkit — diagnose, audit, optimize, and convert MCP servers to local skills",
     "version": "1.0.0"
