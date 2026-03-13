@@ -33,18 +33,20 @@ That creates three common problems:
 - Broken or duplicate servers pollute context and slow down sessions.
 - Global MCP configs are often broader than a single project needs.
 
-## Install From a Marketplace
+## Installation
 
-1. Add a marketplace that contains `mcp-optimizer`.
+### From GitHub (Recommended)
+
+1. Add this repository as a marketplace.
 
    ```bash
-   /plugin marketplace add your-org/claude-plugins
+   /plugin marketplace add choam2426/mcp-optimizer
    ```
 
 2. Install the plugin.
 
    ```bash
-   /plugin install mcp-optimizer@your-org
+   /plugin install mcp-optimizer
    ```
 
 3. Restart Claude Code if prompted, then verify installation.
@@ -53,7 +55,14 @@ That creates three common problems:
    /help
    ```
 
-For local development, use the same flow with a local marketplace such as `./dev-marketplace`.
+### From Another Marketplace
+
+If `mcp-optimizer` is included in an existing marketplace:
+
+```bash
+/plugin marketplace add your-org/claude-plugins
+/plugin install mcp-optimizer@your-org
+```
 
 ## Components At a Glance
 

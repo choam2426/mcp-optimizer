@@ -1,0 +1,20 @@
+{
+  "name": "mcp-optimizer",
+  "version": "1.0.0",
+  "description": "Diagnose, audit, optimize, and convert MCP servers into local on-demand Claude Code skills to eliminate token waste",
+  "author": {
+    "name": "choam2426",
+    "email": "choam2426@gmail.com"
+  },
+  "homepage": "https://github.com/choam2426/mcp-optimizer",
+  "repository": "https://github.com/choam2426/mcp-optimizer",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "optimization",
+    "token-saving",
+    "skills",
+    "diagnostics",
+    "audit"
+  ]
+}

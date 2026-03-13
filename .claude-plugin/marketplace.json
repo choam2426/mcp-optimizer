@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "mcp-optimizer-marketplace",
+  "description": "MCP optimization toolkit — diagnose, audit, optimize, and convert MCP servers to local skills",
+  "owner": {
+    "name": "choam2426",
+    "email": "choam2426@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "mcp-optimizer",
+      "description": "Diagnose, audit, optimize, and convert MCP servers into local on-demand Claude Code skills to eliminate token waste",
+      "version": "1.0.0",
+      "author": {
+        "name": "choam2426",
+        "email": "choam2426@gmail.com"
+      },
+      "source": ".",
+      "category": "productivity",
+      "homepage": "https://github.com/choam2426/mcp-optimizer",
+      "repository": "https://github.com/choam2426/mcp-optimizer"
+    }
+  ]
+}
